@@ -1,9 +1,12 @@
-const CACHE_NAME = "paper-diary-v1";
+const CACHE_NAME = "paper-diary-v2";
 const APP_FILES = [
   "./",
   "./index.html",
   "./manifest.webmanifest",
-  "./icon.svg"
+  "./icon.svg",
+  "./icon-192.png",
+  "./icon-512.png",
+  "./apple-touch-icon.png"
 ];
 
 self.addEventListener("install", (event) => {
